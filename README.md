@@ -22,12 +22,12 @@ model should have variables
 ```
 One can easily change each attack method in this file.
 
-    #attack = CarliniL0_batch(sess, model, max_iterations=1000, initial_const=10, largest_const=15)
-    #attack = CarliniL0(sess, model, max_iterations=1000, initial_const=10,largest_const=15)
-    #attack = CarliniL0_batch(sess, model, max_iterations=1000, initial_const=10,largest_const=15)
-    #attack = LPA_attack(sess, model, max_iterations=2000, initial_const=10,largest_const=15,targeted=Targeted)
-    #attack = LPA_attack2(sess, model, max_iterations=2000, initial_const=10,largest_const=15,targeted=Targeted)
-    #attack = LPA_attack_batch(sess, model, max_iterations=2000, initial_const=10,largest_const=15,targeted=Targeted)
+    #attack = CarliniL0_batch(sess, model, max_iterations=1000)
+    #attack = CarliniL0(sess, model, max_iterations=1000)
+    #attack = CarliniL0_batch(sess, model, max_iterations=1000)
+    #attack = LPA_attack(sess, model, max_iterations=2000)
+    #attack = LPA_attack2(sess, model, max_iterations=2000)
+    #attack = LPA_attack_batch(sess, model, max_iterations=2000)
 
    
 #### To create the MNIST/CIFAR models:
