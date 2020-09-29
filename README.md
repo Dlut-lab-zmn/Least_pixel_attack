@@ -2,7 +2,7 @@
 
 ### About
 
-Corresponding code to the paper "Seek the Least Pixel Attack" by Mn Zhao and Bo Wang,2020.
+Corresponding code to the paper "Further Understanding of the Least Pixel Attack" by Mn Zhao and Bo Wang,2020.
 
 Implementations of the BFs and BFM attack algorithms in Tensorflow. It runs correctly
 on Python 3 and Python 2.
